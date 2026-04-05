@@ -1,0 +1,51 @@
+/* src/index.css or src/App.css */
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+/* Simple Professional Todo App */
+
+/* ICON SPACING UTILITIES - Add to top of your CSS */
+.icon-space {
+  margin-right: 0.5rem;  /* Perfect spacing */
+}
+
+.icon-space-sm {
+  margin-right: 0.25rem; /* Small spacing */
+}
+
+.icon-space-lg {
+  margin-right: 0.75rem; /* Large spacing */
+}
+
+/* Auto-spacing for common elements */
+.form-label i,
+.tasks-title i,
+.empty-title i,
+.submit-btn i,
+.action-edit i,
+.action-delete i,
+.meta-status i,
+.meta-date i,
+.loading-text i,
+.progress-badge i,
+.footer p i,
+.completed-count i,
+.empty-highlight i {
+  margin-right: 0.5rem !important;
+}
+
+
+/* Toast animations */
+.react-hot-toast {
+  z-index: 9999 !important;
+}
+
+/* Smooth entrance */
+.toaster-enter {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.toaster-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
