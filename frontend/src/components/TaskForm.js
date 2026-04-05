@@ -122,7 +122,7 @@ const TaskForm = ({
             onClick={onEditCancel}
             disabled={loading}
           >
-            <i className="bi bi-x-circle me-1"></i>
+            
             Cancel
           </button>
         )}

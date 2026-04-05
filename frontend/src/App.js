@@ -177,7 +177,7 @@ function App() {
         <footer className="footer" role="contentinfo">
           <div className="footer-card">
             <p>
-              <i className="bi bi-heart-fill text-danger"></i>
+              
               Bhaskar Todo app
             </p>
           </div>
